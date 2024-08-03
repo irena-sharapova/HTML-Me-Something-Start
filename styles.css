@@ -1,32 +1,29 @@
-.myClass {
-    background-color: #FFBE98;
-
-    
-}
-
 nav {
     background-color: #F7DED0;
 }
 
 nav ul {
     display: flex; /* Align list items in a row */
-    justify-content: end; 
+    justify-content: end;
     list-style: none; /* Remove points */
-    padding: 10px 0; /* Add vertical padding */
+    padding: 10px 0px; /* Add vertical padding */
+
 }
 
 nav ul li a {
-    color: black; /* White text color */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 20px; /* Add padding for better click area */
-  
-    display: block; /* Make the link a block element */
-    font-family: Arial, sans-serif; /* Set font */
-    font-size: 16px; /* Set font size */
-    
+    color: black;
+    /* White text color */
+    text-transform: uppercase;
+    text-decoration: none;
+    /* Remove underline */
+    padding: 5px 20px;
+    font-family: Arial, sans-serif;
+    /* Set font */
+    font-size: 13px;
+    /* Set font size */
+
+
 }
-
-
 
 
 
@@ -40,21 +37,45 @@ body {
 
 
 #mainHeading {
-    color: red; 
-    font-size: 36px; 
-    text-align: center; 
-    margin-top: 30px; 
-    font-family: Arial, sans-serif; 
-    font-style: italic;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+#mainWord {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
 }
 
 .funParagraph {
     color: green;
-    font-size: 18px; 
-    line-height: 1.6; 
-    font-style: italic; 
-    border-left: 4px solid green; 
-    padding-left: 10px; 
-    background-color: #F7DED0; 
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+    border-left: 4px solid green;
+    padding-left: 10px;
+    background-color: #F7DED0;
 }
 
+.funLine {
+    background-color: #F7DED0;
+    font-family: Arial, sans-serif;
+}
+
+#copy {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.theChapter {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+
+}

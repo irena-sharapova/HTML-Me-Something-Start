@@ -1,1 +1,60 @@
-/* Write your CSS here! */
+.myClass {
+    background-color: #FFBE98;
+
+    
+}
+
+nav {
+    background-color: #F7DED0;
+}
+
+nav ul {
+    display: flex; /* Align list items in a row */
+    justify-content: end; 
+    list-style: none; /* Remove points */
+    padding: 10px 0; /* Add vertical padding */
+}
+
+nav ul li a {
+    color: black; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 20px; /* Add padding for better click area */
+  
+    display: block; /* Make the link a block element */
+    font-family: Arial, sans-serif; /* Set font */
+    font-size: 16px; /* Set font size */
+    
+}
+
+
+
+
+
+body {
+
+    margin: 8px;
+    display: block;
+    background-color: #FEECE2;
+
+}
+
+
+#mainHeading {
+    color: red; 
+    font-size: 36px; 
+    text-align: center; 
+    margin-top: 30px; 
+    font-family: Arial, sans-serif; 
+    font-style: italic;
+}
+
+.funParagraph {
+    color: green;
+    font-size: 18px; 
+    line-height: 1.6; 
+    font-style: italic; 
+    border-left: 4px solid green; 
+    padding-left: 10px; 
+    background-color: #F7DED0; 
+}
+

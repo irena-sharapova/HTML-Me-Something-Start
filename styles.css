@@ -49,8 +49,10 @@ main {
 #mainWord {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
     text-align: right;
+    font-style: italic;
+    
 }
 
 .firstChapter {
@@ -132,6 +134,7 @@ main {
     text-align: center;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
+    margin: 40px 0px 10px 0px;
 
 }
 
@@ -141,7 +144,29 @@ main {
     font-family: Arial, sans-serif;
     margin-top: 20px;
     text-align: justify;
-    margin: 20px;
+    margin: 10px 20px;
+
+}
+
+
+.firstImage {
+    margin: 5px 15px;
+
+}
+
+.secondImage {
+    margin: 5px 20px;
+    
+
+}
+
+.thirdImage {
+    margin: 5px 20px;
+
+}
+
+.forthImage {
+    margin: 20px 20px 40px 40px;
 
 }
 

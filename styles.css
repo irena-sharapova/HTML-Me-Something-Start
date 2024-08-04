@@ -3,35 +3,33 @@ nav {
 }
 
 nav ul {
-    display: flex; /* Align list items in a row */
+    display: flex;
+    /* Align list items in a row */
     justify-content: end;
-    list-style: none; /* Remove points */
-    padding: 10px 0px; /* Add vertical padding */
-
+    list-style: none;
+    /* Remove points */
+    padding: 10px 0px;
 }
 
 nav ul li a {
     color: black;
-    /* White text color */
     text-transform: uppercase;
     text-decoration: none;
-    /* Remove underline */
+    /*remove underline */
     padding: 5px 20px;
     font-family: Arial, sans-serif;
-    /* Set font */
     font-size: 13px;
-    /* Set font size */
 
 
 }
 
 
-
 body {
-
     margin: 8px;
     display: block;
     background-color: #FEECE2;
+    width: 100%;
+    max-width: 1024px;
 
 }
 
@@ -52,6 +50,50 @@ body {
     font-size: 15px;
     text-align: right;
 }
+
+.firstChapter {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.container1 {
+    display: flex;
+    height: 550px;
+}
+
+.image-container1 {
+    align-items: flex-start;
+    flex: 1; /* Allow image container to grow and take up available space */
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-container1 {
+    align-items: flex-start;
+    flex: 1; /* Allow text container to grow and take up available space */
+    padding: 20px;
+  
+   
+}
+
+.text-container1 h3 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 19px;
+    
+}
+
+.text-container1 p {
+    line-height: 1.6;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+   
+}
+
+
 
 .funParagraph {
     color: green;

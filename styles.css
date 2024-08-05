@@ -28,13 +28,14 @@ body {
     width: 100vw;
     height: 100vh;
     max-width: 1024px;
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 
 main {
     box-sizing: border-box;
 }
+
 
 #mainHeading {
     color: red;
@@ -43,7 +44,6 @@ main {
     margin-top: 30px;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
-
 }
 
 #mainWord {
@@ -51,62 +51,57 @@ main {
     text-transform: uppercase;
     font-size: 13px;
     text-align: right;
-    font-style: italic;
-    
+    font-style: italic;   
 }
 
 .firstChapter {
     font-family: Arial, sans-serif;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
+
 
 #about {
     text-align: center;
-
 }
+
 
 #hi {
     text-align: left;
 }
+
 
 .container1 {
     display: flex;
     height: auto;
 }
 
-.image-container1 {
-    align-items: flex-start;
-    display: flex;
+
+.image-container1 {  
     justify-content: center;
     margin: 20px;
 }
 
 
-.text-container1 {
-    align-items: flex-start;
+.text-container1 {  
     padding: 20px;
-  
-   
 }
+
 
 .text-container1 h3 {
     text-align: center;
     justify-content: center;
     margin-top: 0;
     font-size: 19px;
-    text-align: justify;
-
-    
+    text-align: justify;   
 }
+
 
 .text-container1 p {
     line-height: 1.6;
     font-size: 15px;
     font-family: Arial, sans-serif;
     margin-top: 20px;
-    text-align: justify;
-   
+    text-align: justify;   
 }
 
 
@@ -120,22 +115,24 @@ main {
     background-color: #F7DED0;
 }
 
+
 .funLine {
     background-color: #F7DED0;
     font-family: Arial, sans-serif;
 }
+
 
 #copy {
     text-align: center;
     padding: 10px 10px;
 }
 
+
 .theChapter {
     text-align: center;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
     margin: 40px 0px 10px 0px;
-
 }
 
 .descriptionChapter {
@@ -145,19 +142,15 @@ main {
     margin-top: 20px;
     text-align: justify;
     margin: 10px 20px;
-
 }
 
 
 .firstImage {
     margin: 5px 15px;
-
 }
 
 .secondImage {
     margin: 5px 20px;
-    
-
 }
 
 .thirdImage {

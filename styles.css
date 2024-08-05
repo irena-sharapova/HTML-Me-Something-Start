@@ -4,12 +4,14 @@ nav {
     margin: 0px 150px;  
 }
 
+
 nav ul {
     display: flex;/* Align list items in a row */
     justify-content: end;
     list-style: none;/* Remove points */
     padding: 10px 0px;
 }
+
 
 nav ul li a {
     color: black;
@@ -18,11 +20,11 @@ nav ul li a {
     padding: 5px 20px;
     font-family: Arial, sans-serif;
     font-size: 13px;
-
 }
 
 
 body {
+    width: 1024px;  
     margin: 8px;
     padding: 0;
     display: block;
@@ -30,10 +32,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    justify-content: center;
-    
-  
-   
+    align-items: center;   
 }
 
 
@@ -48,8 +47,8 @@ main {
     text-align: center;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
-
 }
+
 
 #mainWord {
     font-family: Arial, sans-serif;
@@ -59,6 +58,7 @@ main {
     font-style: italic;  
     margin: 0px 130px;   
 }
+
 
 .firstChapter {
     font-family: Arial, sans-serif;
@@ -75,7 +75,6 @@ main {
     text-align: left;
     font-style: italic;  
     margin: 20px; 
-
 }
 
 
@@ -168,25 +167,26 @@ main {
     margin: 5px 20px 5px 20px;
 }
 
+
 .thirdOfThreeImage {
     margin: 5px 200px 5px 20px;
 }
-
 
 
 .secondImage {
     margin: 5px 300px;
 }
 
+
 .thirdImage {
     margin: 5px 20px 5px 300px;
-
 }
+
 
 .forthImage {
     margin: 20px 200px 40px 40px;
-
 }
+
 
 #contact {
     padding: 10px 10px;
@@ -194,12 +194,12 @@ main {
     cursor: pointer;
 }
 
+
 hr {
-    border: 0;
-    height: 2px; 
+    border: 5;
+    height: 1px; 
     background-color: #E2BFB3;
     width: 70%; 
-    margin: 0px auto;
-
-
+    margin: 5px auto;
 }
+

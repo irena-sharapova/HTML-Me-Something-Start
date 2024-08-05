@@ -1,6 +1,7 @@
 nav {
     background-color: #F7DED0;
-    cursor: pointer;   
+    cursor: pointer; 
+    margin: 0px 150px;  
 }
 
 nav ul {
@@ -23,12 +24,16 @@ nav ul li a {
 
 body {
     margin: 8px;
+    padding: 0;
     display: block;
     background-color: #FEECE2;
     width: 100vw;
     height: 100vh;
-    max-width: 1024px;
-   overflow-x: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    
+  
+   
 }
 
 
@@ -41,9 +46,9 @@ main {
     color: red;
     font-size: 25px;
     text-align: center;
-    margin-top: 30px;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
+
 }
 
 #mainWord {
@@ -51,7 +56,8 @@ main {
     text-transform: uppercase;
     font-size: 13px;
     text-align: right;
-    font-style: italic;   
+    font-style: italic;  
+    margin: 0px 130px;   
 }
 
 .firstChapter {
@@ -67,12 +73,16 @@ main {
 
 #hi {
     text-align: left;
+    font-style: italic;  
+    margin: 20px; 
+
 }
 
 
 .container1 {
     display: flex;
     height: auto;
+    margin: 0px 300px;  
 }
 
 
@@ -92,7 +102,8 @@ main {
     justify-content: center;
     margin-top: 0;
     font-size: 19px;
-    text-align: justify;   
+    text-align: justify;  
+    margin: 0px 50px;   
 }
 
 
@@ -102,6 +113,7 @@ main {
     font-family: Arial, sans-serif;
     margin-top: 20px;
     text-align: justify;   
+    font-style: italic;  
 }
 
 
@@ -112,6 +124,7 @@ main {
     font-style: italic;
     border-left: 4px solid green;
     padding-left: 10px;
+    padding: 10px;
     background-color: #F7DED0;
 }
 
@@ -119,6 +132,7 @@ main {
 .funLine {
     background-color: #F7DED0;
     font-family: Arial, sans-serif;
+    margin: 0px 150px;  
 }
 
 
@@ -136,30 +150,41 @@ main {
 }
 
 .descriptionChapter {
+    text-indent: 30px;
     line-height: 1.6;
     font-size: 15px;
     font-family: Arial, sans-serif;
     margin-top: 20px;
     text-align: justify;
-    margin: 10px 20px;
+    margin: 10px 200px;
+}
+
+.firstOfThreeImage {
+    margin: 5px 20px 5px 300px;
 }
 
 
-.firstImage {
-    margin: 5px 15px;
+.secondOFThreeImage {
+    margin: 5px 20px 5px 20px;
 }
+
+.thirdOfThreeImage {
+    margin: 5px 200px 5px 20px;
+}
+
+
 
 .secondImage {
-    margin: 5px 20px;
+    margin: 5px 300px;
 }
 
 .thirdImage {
-    margin: 5px 20px;
+    margin: 5px 20px 5px 300px;
 
 }
 
 .forthImage {
-    margin: 20px 20px 40px 40px;
+    margin: 20px 200px 40px 40px;
 
 }
 
